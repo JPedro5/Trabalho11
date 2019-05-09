@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.FXMLMenuController">
+   <children>
+      <Label layoutX="193.0" layoutY="14.0" prefHeight="64.0" prefWidth="214.0" text="Equipamentos" textFill="#445380">
+         <font>
+            <Font name="ISOCP" size="36.0" />
+         </font>
+      </Label>
+      <Button fx:id="cadastrar" layoutX="197.0" layoutY="129.0" mnemonicParsing="false" onAction="#cadastro" prefHeight="27.0" prefWidth="206.0" text="Cadastrar" />
+      <Button fx:id="btdelatar" layoutX="197.0" layoutY="234.0" mnemonicParsing="false" onAction="#deleta" prefHeight="27.0" prefWidth="206.0" text="Deletar" />
+      <Button fx:id="btatua" layoutX="197.0" layoutY="165.0" mnemonicParsing="false" onAction="#atualizar" prefHeight="27.0" prefWidth="206.0" text="Atualizar" />
+      <Button fx:id="btpesquisa" layoutX="197.0" layoutY="200.0" mnemonicParsing="false" onAction="#pesquisa" prefHeight="27.0" prefWidth="206.0" text="Pesquisar" />
+      <Button fx:id="sair" layoutX="274.0" layoutY="299.0" mnemonicParsing="false" onAction="#sairdaconta" prefHeight="25.0" prefWidth="45.0" text="Sair" />
+   </children>
+</AnchorPane>

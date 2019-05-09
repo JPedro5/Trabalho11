@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="224.0" prefWidth="362.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.FXMLCadastroController">
+   <children>
+      <Label layoutX="76.0" layoutY="76.0" prefHeight="17.0" prefWidth="44.0" text="Nome :" />
+      <TextField fx:id="txtNomeP" layoutX="121.0" layoutY="72.0" />
+      <TextField fx:id="txtNuP" layoutX="126.0" layoutY="109.0" prefHeight="25.0" prefWidth="36.0" />
+      <Label layoutX="76.0" layoutY="113.0" text="Numero :" />
+      <Button fx:id="salva" layoutX="85.0" layoutY="168.0" mnemonicParsing="false" onAction="#salvar" prefHeight="25.0" prefWidth="72.0" text="Salvar" />
+      <Button fx:id="sair" layoutX="196.0" layoutY="168.0" mnemonicParsing="false" onAction="#saindo" prefHeight="25.0" prefWidth="72.0" text="Sair" />
+   </children>
+</AnchorPane>
